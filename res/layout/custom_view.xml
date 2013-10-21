@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myView="http://schemas.android.com/apk/res/com.tyl"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <com.tyl.customView.MyView
+  	android:layout_width="match_parent"
+  	android:layout_height="match_parent"
+  	myView:textSize="40px"
+  	myView:textColor="#fff"
+  />
+</LinearLayout>

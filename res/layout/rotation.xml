@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button 
+     	android:id="@+id/addTextBtn"   
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:text="添加"
+     />
+    <Button 
+     	android:id="@+id/delTextBtn"   
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:text="删除"
+     />
+    <Button 
+     	android:id="@+id/showResultBtn"   
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:text="显示结果"
+     />
+    <TextView 
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

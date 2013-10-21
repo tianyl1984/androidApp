@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  >
+  <LinearLayout 
+    android:focusable="true" 
+    android:focusableInTouchMode="true" 
+    android:layout_width="0px" 
+    android:layout_height="0px"/>
+	<Button 
+		android:id="@+id/btnBluetoothInfo"    
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="蓝牙信息"
+	/>
+	<Button 
+		android:id="@+id/btnRequestBluetoothDiscover"    
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="请求可检测蓝牙"
+	/>
+	<Button 
+		android:id="@+id/btnDisableBluetooth"    
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="关闭蓝牙"
+	/>
+	<Button 
+		android:id="@+id/btnScanBluetooth"    
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="开始扫描"
+	/>
+	<Button 
+		android:id="@+id/btnStartServer"    
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="开启服务"
+	/>
+<LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  >
+	<EditText
+		android:id="@+id/nameText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:text="tyl"
+	/>
+	<Button 
+		android:id="@+id/btnConnectToServer"    
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="连接服务器"
+	/>
+</LinearLayout>
+  <ScrollView 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:scrollbars="vertical"
+      android:fadingEdge="vertical"
+      >
+  <TextView
+  	android:id = "@+id/resultTextView"
+  	android:layout_width = "fill_parent"
+  	android:layout_height = "wrap_content"
+  	android:textSize = "20dp"
+  	android:singleLine="false"
+  />
+  </ScrollView>
+</LinearLayout>

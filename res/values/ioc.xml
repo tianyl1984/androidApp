@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="roboguice_modules"><!-- name不能改 -->
+        <item>com.tyl.ioc.GreetingModule</item>
+    </string-array>
+</resources>

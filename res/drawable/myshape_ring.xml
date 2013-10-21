@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="ring"
+    android:innerRadius="30dp"
+    android:thickness="50dp"
+    >
+    <!-- 线形 -->
+    <stroke 
+        android:width="5dp"
+        android:color="#000000"
+        android:dashWidth="2dp"
+        android:dashGap="1dp"
+        />
+        <!-- 间距 -->
+    <padding 
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"
+        android:bottom="10dp"
+        />
+    <!-- 圆角 -->
+    <corners
+        android:radius="2dp"
+    />
+    <solid 
+        android:color="#234134"
+        />
+    <size 
+        android:width="50dp"
+        android:height="30dp"
+        />
+</shape>

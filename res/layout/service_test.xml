@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  >
+    <Button
+		 android:id="@+id/btnStartService"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="启动服务"
+	/>
+    <Button
+		 android:id="@+id/btnEndService"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="结束服务"
+	/>
+    <Button
+		 android:id="@+id/btnGetCount"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="获取Count"
+	/>
+    <Button
+		 android:id="@+id/btnSetCount"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="设置Count"
+	/>
+</LinearLayout>

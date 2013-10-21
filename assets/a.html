@@ -1,0 +1,39 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>测试html</title>
+<script>
+		function addRow(jsons){
+			var tab = document.getElementById("tab");
+			var arr = eval(jsons);
+			for(var i = 0;i < arr.length;i++){
+				var tr = tab.insertRow(tab.rows.length);
+				tr.onmouseover = function(){
+					this.style.backgroundColor = "red";	
+				}
+				tr.onmouseout = function(){
+					this.style.backgroundColor = "#FFFFFF";	
+				}	
+				var td1 = tr.insertCell(0);
+				var td2 = tr.insertCell(1);
+				td2.align = "center";
+				var td3 = tr.insertCell(2);
+				td1.innerHTML = arr[i].id;
+				td2.innerHTML = arr[i].name;
+				td3.innerHTML = arr[i].tel;
+			}	
+		}
+		
+		function add(){
+			//addRow('[{id:"aaa",name:"bbb",tel:"123123"},{id:"sss",name:"eee",tel:"342312"}]');
+			jsTest.addRowFromJava();
+		}
+</script>	
+</head>
+<body onload="">
+	<table width="100%" border="0" cellspacing="0" id="tab">
+		<tr><td>编号</td><td align="center">姓名</td><td>电话</td></tr>
+	</table>
+	<input type="button" value="Test" onclick="add()"/>	
+</body>	
+</html>

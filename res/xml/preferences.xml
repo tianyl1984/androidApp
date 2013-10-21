@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:key="arrayChoose"
+  android:title="选择一项"
+  android:summary="选择一项字符串"
+  >
+  <ListPreference
+  	android:key="listKey"
+  	android:title="listTitle"
+  	android:summary="listSummary"
+  	android:entries="@array/key1"
+  	android:entryValues="@array/value1"
+  	android:defaultValue="value2"
+  />
+  <CheckBoxPreference
+  	android:key="checkboxKey"
+  	android:title="CheckBox1"
+  	android:summary="CheckBox1Summary"
+  	android:summaryOn="选中1"
+  	android:summaryOff="未选中1"
+  />
+  <CheckBoxPreference
+  	android:key="checkboxKey"
+  	android:title="CheckBox2"
+  	android:summary="CheckBox2Summary"
+  />
+  <EditTextPreference
+  	android:key="editKey"
+  	android:title="输入一个字符串"
+  	android:summary="随便输入一个字符串"
+  	android:dialogTitle="输吧"
+  />
+  <RingtonePreference
+  	android:key="ringtoneKey"
+  	android:title="铃声"
+  	android:summary="选择一个铃声"
+  />
+  <PreferenceScreen
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:key="meatChoose"
+	  android:title="选择多项"
+	  android:summary="可以选择多项"
+  >
+  <CheckBoxPreference
+  	android:key="meatChooseKey1"
+  	android:title="Fish"
+  	android:summary="Fish is good!"
+  />
+  <CheckBoxPreference
+  	android:key="meatChooseKey2"
+  	android:title="Chicken"
+  	android:summary="Chicken is good!"
+  />
+  <CheckBoxPreference
+  	android:key="meatChooseKey3"
+  	android:title="Lamb"
+  	android:summary="Lamb is good!"
+  />
+  </PreferenceScreen>
+  <PreferenceCategory
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:key="vegetablesChoose"
+	  android:title="蔬菜选择"
+	  android:summary="蔬菜选择蔬菜选择蔬菜选择"
+  >
+  <CheckBoxPreference
+  	android:key="vegetablesChooseKey1"
+  	android:title="tomato"
+  	android:summary="tomato is good!"
+  />
+  <EditTextPreference
+  	android:key="vegetablesChooseKey2"
+  	android:title="输入一个蔬菜"
+  	android:summary="随便输入一个喜欢的蔬菜"
+  	android:dialogTitle="输吧"
+  />
+  </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  >
+  <Button
+		 android:id="@+id/btnRegister"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="注册广播接收器"
+	/>
+  <Button
+		 android:id="@+id/btnUnRegister"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="解除广播接收器"
+	/>
+  <Button
+		 android:id="@+id/btnSendBroadcast"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="发送广播"
+	/>
+  <Button
+		 android:id="@+id/btnStatusMsg"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="状态信息"
+	/>
+</LinearLayout>

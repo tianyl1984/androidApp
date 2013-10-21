@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">你好</string>
+	<string name="hello2">世界，你好</string>
+	<string name="i18n">国际化</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  >
+	<ProgressBar 
+        android:id="@+id/downloadProgressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="0"
+	    />
+	<TextView 
+	    android:id="@+id/rateTextView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text=""
+	    />
+	<TextView 
+	    android:id="@+id/timeTextView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text=""
+	    />
+	<EditText 
+	    android:id="@+id/countEditText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="1"
+	    android:numeric="integer"
+	/>
+    <Button
+		 android:id="@+id/btnStart"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="开始"
+	/>
+</LinearLayout>

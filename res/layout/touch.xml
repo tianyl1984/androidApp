@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  >
+  <com.tyl.touch.MyTouchView
+      android:id="@+id/touchView"
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+  />
+  <LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal"
+	  android:background="#224b8f"
+	  android:gravity="center_horizontal"
+	  >
+  <Button 
+  	android:id="@+id/saveBtn"    
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="center_horizontal"
+  	android:text="保存"
+  />
+  <Button 
+  	android:id="@+id/loadBtn"    
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="center_horizontal"
+  	android:text="读取"
+  />
+  <Button 
+  	android:id="@+id/deleteBtn"    
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="center_horizontal"
+  	android:text="删除文件"
+  />
+  </LinearLayout>
+</LinearLayout>

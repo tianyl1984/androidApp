@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">MyAndroidApp</string>
+	<string-array name="key1">
+		<item>item1</item>
+		<item>item2</item>
+		<item>item3</item>
+		<item>item4</item>
+		<item>item5</item>
+	</string-array>
+	<string-array name="value1">
+		<item>value1</item>
+		<item>value2</item>
+		<item>value3</item>
+		<item>value4</item>
+		<item>value5</item>
+	</string-array>
+	<string name="hello">hello</string>
+	<string name="hello2">hello world</string>
+	<string name="i18n">国际化</string>
+</resources>

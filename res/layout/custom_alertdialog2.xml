@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  >
+<EditText
+	android:id="@+id/ipText"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:hint="请输入IP地址"
+    android:digits="0123456789."
+/>
+<EditText
+	android:id="@+id/portText"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:hint="请输入端口号"
+    android:numeric="integer"
+/>
+</LinearLayout>
