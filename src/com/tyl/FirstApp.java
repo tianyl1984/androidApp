@@ -38,6 +38,7 @@ import com.tyl.activity.TableActivity;
 import com.tyl.activity.TreeActivity;
 import com.tyl.activity.TreeActivity2;
 import com.tyl.activity.UsersListActivity;
+import com.tyl.activity.WebSocketDemoActivity;
 import com.tyl.commom.ArrayUtil;
 import com.tyl.commom.StartNewActivity;
 import com.tyl.commom.StringUtil;
@@ -253,6 +254,8 @@ public class FirstApp extends Activity {
 		findViewById(R.id.btnAfinal).setOnClickListener(new StartNewActivity(this, AfinalDemo.class));
 		// Orman
 		findViewById(R.id.btnOrman).setOnClickListener(new StartNewActivity(this, OrmanTestActivity.class));
+		// webSocket
+		findViewById(R.id.btnWSDemo).setOnClickListener(new StartNewActivity(this, WebSocketDemoActivity.class));
 	}
 
 	private long existTime = 0;

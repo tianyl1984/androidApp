@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="12dip"
+    android:weightSum="1" >
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="120dip"
+        android:layout_height="80dip"
+        android:layout_gravity="center"
+        android:layout_margin="16dip"
+        android:bufferType="editable"
+        android:text="Button" >
+    </Button>
+
+    <TextView
+        android:id="@+id/statusline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dip"
+        android:text="Ready."
+        android:textSize="14dip" />
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="Hello, world!"
+         >
+    </EditText>
+
+    <Button
+        android:id="@+id/sendMsg"
+        android:layout_width="120dip"
+        android:layout_height="80dip"
+        android:layout_gravity="center"
+        android:layout_margin="16dip"
+        android:bufferType="editable"
+        android:text="Send" >
+    </Button>
+
+</LinearLayout>
