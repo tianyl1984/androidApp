@@ -279,6 +279,12 @@
 		 android:text="执行Command"
 	/>
     <Button
+		 android:id="@+id/btnCommandServer"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="命令服务器"
+	/>
+    <Button
 		 android:id="@+id/btnGesture"
 		 android:layout_width="wrap_content"
 		 android:layout_height="wrap_content"

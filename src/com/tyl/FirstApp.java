@@ -16,6 +16,7 @@ import com.tyl.activity.BaseOperateActivity;
 import com.tyl.activity.BluetoothActivity;
 import com.tyl.activity.BroadcastTestActivity;
 import com.tyl.activity.CommandActivity;
+import com.tyl.activity.CommandServerActivity;
 import com.tyl.activity.DownloadActivity;
 import com.tyl.activity.GalleryTestActivity;
 import com.tyl.activity.HandlerTest;
@@ -203,6 +204,9 @@ public class FirstApp extends Activity {
 
 		// 执行cmd
 		findViewById(R.id.btnCommand).setOnClickListener(new StartNewActivity(this, CommandActivity.class));
+
+		// 服务执行cmd
+		findViewById(R.id.btnCommandServer).setOnClickListener(new StartNewActivity(this, CommandServerActivity.class));
 
 		// 手势
 		findViewById(R.id.btnGesture).setOnClickListener(new StartNewActivity(this, GestureTest.class));

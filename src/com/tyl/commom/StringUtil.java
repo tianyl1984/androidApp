@@ -1,5 +1,9 @@
 package com.tyl.commom;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
 public class StringUtil {
 
 	public static boolean isBlank(String str) {
@@ -24,5 +28,34 @@ public class StringUtil {
 			result += String.valueOf(aa);
 		}
 		return result;
+	}
+
+	public static String toString(InputStream in, String charset) throws Exception {
+		if (in == null) {
+			return "";
+		}
+		if (in.available() <= 0) {
+			return "";
+		}
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(in, charset));
+		String result = "";
+		String temp = null;
+		while ((temp = br.readLine()) != null) {
+			result += temp;
+		}
+		return result;
+	}
+
+	public static String readOneLine(InputStream in, String charset) throws Exception {
+		if (in == null) {
+			return "";
+		}
+		if (in.available() <= 0) {
+			return "";
+		}
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(in, charset));
+		return br.readLine();
 	}
 }

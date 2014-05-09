@@ -38,6 +38,7 @@
         <activity android:name=".activity.StyleTestActivity" />
         <activity android:name=".activity.GalleryTestActivity" />
         <activity android:name=".activity.CommandActivity" />
+        <activity android:name=".activity.CommandServerActivity" />
         <activity android:name=".activity.JsonActivity" />
         <activity android:name=".activity.BluetoothActivity" />
         <activity android:name=".tab.ActivityGroupDemo" />
